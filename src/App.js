@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Form }from './components/Form'
+import "./styles/commonStyles.css"
 
 export default function App() {
   return(
-    <div>
+    <div className='main__container'>
       <Form/>
     </div>
   )
